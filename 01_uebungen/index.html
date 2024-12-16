@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Artemis Athanasiou</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Sassy+Frass&display=swap');
+
+
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        header{
+            position: relative;
+            top: 0;
+            left: 0;
+            margin-bottom: 200px;
+            text-align: center;
+            margin-top: 50px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+        }
+
+        body{
+            background-color: rgb(0, 4, 20);
+            color: #f0f1f7;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 200;
+        }
+
+        main{
+            margin-top: 100px;
+            padding: 100px;
+            display: flex;
+        }
+
+        footer{
+            background-color: rgba(25, 27, 122, 0.321);
+            padding: 40px;
+            margin-top: 100px;
+            display: flex;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .gallery h3 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .gallery .images {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            padding: 0 20px;
+        }
+
+        
+        .gallery img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        .right {
+            width: 50%;
+            text-align: right;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .left {
+            width: 50%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .logo{
+            margin: 10mm;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <div class="logo">
+            <img src="./assets/cat_logo.png">
+            </div>
+        </a>
+        <h1>Portfolio</h1>
+    </header>
+    <main class="main-content">
+        <section class="profile">
+            <h2>Artemis Athanasiou</h2>
+            <p>Email: athanasioua@bzz.ch</p>
+        </section>
+        <section class="gallery">
+            <h3>Meine Projekte</h3>
+            <div class="images">
+                <img src="assets/image1.png" alt="Projekt 1">
+                <img src="assets/image2.png" alt="Projekt 2">
+                <img src="assets/image3.png" alt="Projekt 3">
+                <img src="assets/image4.png" alt="Projekt 4">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="left"><p>email: artemisathanasiou{a}icloud.com <br>
+            telefon: +41 78 747 94 30</p>
+        </div>
+        <div class="right"><p>Erreichbar Mo-Fr von 8:00 - 17:00 <br>
+            Bei einem Anruf bitte eine Nachricht hinterlassen, sonst rufe ich nicht zurück</p>
+        </div>
+
+        
+    </footer>
+</body>
+
+</html>
